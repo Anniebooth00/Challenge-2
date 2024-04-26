@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <title>Annie's Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="heroSection">
+        <div class="container">
+            <h1>Digital Designer</h1>
+            <h3>UX/UI design, full stack development, brand design</h3>
+        </div>
+    </section>
+
+    <section id="about" class="aboutMe">
+        <div class="textContent">
+            <h2>Hi, I'm Annie</h2>
+            <p>I am a dedicated full-stack developer with a foundation in UX/UI design, recently completing the UX/UI bootcamp from the University of Utah. Currently enrolled in their coding bootcamp, I aim to bridge the gap between design and development, creating seamless user experiences backed by robust, scalable code.</p>
+        </div>
+        <img src="./Assets/img-me.jpg" alt="image of annie">
+    </section>
+
+    <section id="projects" class="worksSection">
+        <h2>Works</h2>
+        <div class="workContainer">
+        <a href="acrd.html">
+            <div class="card work1">
+                <h4>Empowering Disability Advocacy</h4>
+                <p>This unique hub gathers all essential knowledge in one easy-to-access space.</p>
+                <button>See More</button>
+                <img src="./Assets/ACRD.jpg" alt="Mockup image of ACRDs homepage on IMAC">
+            </div>
+        </a>
+
+        <a href="allAboard.html">
+            <div class="card work2">
+                <h4>Embark on a Journey of Knowledge</h4>
+                <p>A dynamic learning hub designed to streamline HR processes.</p>
+                <button>See More</button>
+                <img src="./Assets/allAboard.jpg" alt="Mockup image of All Aboards homepage on laptop">
+            </div>
+        </a>
+
+        <a href="gardenPark.html">
+            <div class="card work3">
+                <h4>Blossoming Change</h4>
+                <p>Leveraged diverse skills in product design to enhance digital experience.</p>
+                <button>See More</button>
+                <img src="./Assets/GardenPark.jpg" alt="Mockup image of Conservation Garden Parks homepage on IMAC">
+            </div>
+        </a>
+    </div>
+    </section>
+
+    <section id="contact" class="contactMe">
+        <h2>Get in touch</h2>
+        <form action="#" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <footer>
+        <h4>Annie Dudley</h4>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </footer>
+    
+</body>
+</html>
