@@ -1,0 +1,474 @@
+/* Define a custom font face */
+@font-face {
+    font-family: 'PPMori'; /* Name of the font family */
+    src: url('../fonts/PPMori-Regular.otf') format('opentype'), /* OpenType format */
+         url('../fonts/PPMori-Extralight.otf') format('opentype'), /* Additional font variations */
+         url('../fonts/PPMori-ExtralightItalic.otf') format('opentype'),
+         url('../fonts/PPMori-RegularItalic.otf') format('opentype'),
+         url('../fonts/PPMori-SemiBold.otf') format('opentype'),
+         url('../fonts/PPMori-SemiBoldItalic.otf') format('opentype'); /* Multiple font files for various styles */
+}
+
+/* Apply the custom font to all elements */
+* {
+    font-family: 'PPMori', serif; /* Default font family, fallback to serif */
+}
+
+/* Enable smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Header styling */
+header {
+    padding: 40px; /* Padding around the header */
+}
+
+/* Navigation styling */
+nav {
+    text-align: center; /* Center-align text in the navigation */
+}
+
+/* Unordered list styling */
+ul {
+    list-style-type: none; /* No default bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: inline-block; /* Display as inline-block for horizontal layout */
+}
+
+/* List item styling */
+li {
+    display: inline; /* Display list items in a row */
+    margin: 0 20px; /* Horizontal margin between list items */
+}
+
+/* Anchor (link) styling */
+a {
+    text-decoration: none; /* No underline */
+    color: #000; /* Black color for text */
+    font-weight: 500; /* Medium font weight */
+}
+
+/* Heading 1 styling */
+h1 {
+    font-size: 150px; /* Very large font size */
+    font-weight: 300; /* Light font weight */
+}
+
+/* Heading 3 styling */
+h3 {
+    font-size: 28px; /* Medium font size */
+    font-weight: 200; /* Light font weight */
+    width: 400px; /* Specific width */
+    text-align: left; /* Align text to the left */
+}
+
+/* Hero section styling */
+.heroSection {
+    padding: 20px; /* Padding around the section */
+    text-align: center; /* Center-align text */
+    height: 100vh; /* Full viewport height */
+}
+
+/* Container inside the hero section */
+.heroSection .container {
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Align items in the center vertically */
+    gap: 80px; /* Space between elements */
+    position: absolute; /* Absolute position within the section */
+    bottom: 0; /* Position at the bottom */
+    padding-left: 80px; /* Left padding */
+}
+
+/* About section styling */
+.aboutMe {
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Space elements evenly */
+    align-items: center; /* Align items in the center vertically */
+    padding: 80px; /* Padding around the section */
+}
+
+/* Text content within the about section */
+.aboutMe .textContent {
+    flex: 1; /* Take up available space */
+    text-align: left; /* Align text to the left */
+}
+
+/* Image styling within the about section */
+.aboutMe img {
+    max-width: 600px; /* Maximum width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 25%; /* Rounded borders */
+    margin-left: 20px; /* Left margin */
+}
+
+/* Heading 2 styling */
+h2 {
+    font-size: 92px; /* Large font size */
+    font-weight: 300; /* Light font weight */
+}
+
+/* Paragraph styling */
+p {
+    font-size: 20px; /* Default font size */
+    width: 800px; /* Specific width */
+    line-height: 28px; /* Line height for readability */
+}
+
+/* Works section styling */
+.worksSection {
+    padding: 80px; /* Padding around the section */
+}
+
+/* Work container styling */
+.workContainer {
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Space elements evenly */
+}
+
+/* Card styling */
+.card {
+    border: 2px solid #000; /* Border around the card */
+    border-radius: 25px; /* Rounded corners */
+    padding: 40px; /* Padding within the card */
+    width: 400px; /* Card width */
+    height: 400px; /* Card height */
+}
+
+/* Card hover effect */
+.card:hover {
+    border: 2px solid #000; /* Border */
+    border-radius: 25px; /* Rounded corners */
+    padding: 40px; /* Padding */
+    scale: 120%; /* Scale card on hover */
+    color: #fff; /* Change text color to white */
+}
+
+/* Background change on hover for specific cards */
+.work1:hover {
+    background: url("../ACRD.jpg"); /* Background image change */
+}
+
+.work2:hover {
+    background: url("../allAboard.jpg"); /* Background change */
+}
+
+.work3:hover {
+    background: url("../GardenPark.jpg"); /* Background change */
+}
+
+/* Hide images within cards by default */
+.card img {
+    display: none; /* Hide the image */
+}
+
+/* Paragraph styling within cards */
+.card p {
+    width: 300px; /* Specific paragraph width */
+}
+
+/* Heading 4 styling */
+h4 {
+    font-size: 32px; /* Font size */
+    font-weight: 200; /* Light font weight */
+}
+
+/* Button styling within the works section */
+.worksSection .card button {
+    background-color: #000; /* Button background color */
+    color: #fff; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding */
+}
+
+/* Hover effect for buttons within the works section */
+.worksSection .card button:hover {
+    background-color: #fff; /* Change background color */
+    color: #000; /* Change text color */
+    border: 2px solid #000; /* Border on hover */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding */
+}
+
+/* Contact section styling */
+.contactMe {
+    padding: 80px; /* Padding around the section */
+    background-color: #f9f9f9; /* Light background color */
+    border: 1px solid #e0e0e0; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 800px; /* Maximum width */
+    margin: 0px auto; /* Center-align the section */
+    text-align: center; /* Center-align text */
+}
+
+/* Heading 2 styling within the contact section */
+.contactMe h2 {
+    margin-top: 10px; /* Top margin */
+    margin-bottom: 20px; /* Bottom margin */
+}
+
+/* Form styling within the contact section */
+.contactMe form {
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: flex-start; /* Align items to the left */
+}
+
+/* Form group styling */
+.contactMe .form-group {
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Align items in the center vertically */
+    justify-content: flex-start; /* Align items to the left */
+    margin-bottom: 15px; /* Bottom margin */
+}
+
+/* Label styling within the contact section */
+.contactMe label {
+    font-size: 16px; /* Font size */
+    min-width: 100px; /* Minimum width */
+    text-align: left; /* Align text to the left */
+    margin-left: 0; /* No left margin */
+    margin-top: 20px; /* Top margin */
+    margin-bottom: 10px; /* Bottom margin */
+}
+
+/* Input and textarea styling within the contact section */
+.contactMe input,
+.contactMe textarea {
+    flex: 1; /* Take up available space */
+    padding: 10px; /* Padding */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 20px; /* Bottom margin */
+    width: 100%; /* Full width */
+}
+
+/* Textarea-specific styling */
+.contactMe textarea {
+    height: 100px; /* Specific height */
+}
+
+/* Button styling within the contact section */
+.contactMe button {
+    padding: 10px 20px; /* Padding */
+    background-color: #000; /* Background color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Button hover effect within the contact section */
+.contactMe button:hover {
+    background-color: #45a049; /* Change background color on hover */
+}
+
+/* Footer styling */
+footer {
+    margin: 0px auto; /* Center-align the footer */
+    text-align: center; /* Center-align text */
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+ 
+    header {
+        padding: 20px;
+    }
+
+    .heroSection {
+        padding: 10px;
+        height: 80vh; 
+    }
+
+    .heroSection .container {
+        flex-direction: row; 
+        gap: 20px; 
+        padding-left: 20px;
+    }
+
+    h1 {
+        font-size: 80px; 
+    }
+
+    h2 {
+        font-size: 62px;
+    }
+
+    h3 {
+        font-size: 20px;
+        width: 300px; 
+    }
+
+    h4{
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .aboutMe {
+        flex-direction: row;
+        align-items: center;
+        padding-top: 160px;
+        padding-left: 40px;
+    }
+
+    .aboutMe p{
+        width: 600px;
+    }
+
+    .aboutMe img {
+        max-width: 300px;
+        margin-left: 0;
+    }
+
+    .worksSection {
+        padding: 40px;
+    }
+
+    .workContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row; 
+        align-items: center;
+        
+    }
+
+    .card {
+        width: 300px; 
+        height: 300px;
+        padding: 40px; 
+    }
+
+    .card p {
+        width: auto; 
+    }
+
+    .contactMe {
+        padding: 40px;
+    }
+
+    .contactMe form {
+        flex-direction: column;
+    }
+
+    .contactMe input,
+    .contactMe textarea {
+        padding: 8px; 
+        width: 100%; 
+    }
+
+    footer {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    
+    header {
+        padding: 10px; 
+    }
+
+   
+    nav {
+        text-align: center; 
+    }
+
+    ul {
+        display: inline; 
+        padding-left: 0;
+    }
+
+    li {
+        display: inline;
+        margin: 20px, 0;
+    }
+
+   
+    .heroSection {
+        padding: 10px;
+        height: 60vh;
+        text-align: left; 
+    }
+
+    .heroSection .container {
+        padding-left: 20px; 
+        gap: 20px; 
+    }
+
+    h1 {
+        font-size: 60px; 
+    }
+
+    h2 {
+        font-size: 42px;
+    }
+
+    h3 {
+        font-size: 18px;
+        width: auto; 
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .aboutMe {
+        flex-direction: column; 
+        align-items: flex-start; 
+        padding-top: 260px;
+        padding-left: 40px; 
+    }
+
+    .aboutMe img {
+        max-width: 400px; 
+        margin-left: 0; 
+    }
+
+    .aboutMe p{
+        width: 400px;
+    }
+
+    .worksSection {
+        padding-left: 40px;
+        padding-bottom: 160px;
+    }
+
+    .workContainer {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .card {
+        width: 100%; 
+        height: auto; 
+        padding: 20px; 
+        margin: 20px 0;
+    }
+
+    .card p {
+        width: auto; 
+    }
+
+    .contactMe {
+        padding: 20px; 
+    }
+
+    .contactMe form {
+        align-items: center; 
+    }
+
+    .contactMe input,
+    .contactMe textarea {
+        padding: 5px;
+        width: 100%; 
+    }
+
+    footer {
+        padding: 10px;
+    }
+}

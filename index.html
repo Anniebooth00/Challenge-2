@@ -1,16 +1,27 @@
 <!DOCTYPE html>
+<!-- Defines the document type as HTML5 -->
 <html lang="en">
+<!-- Specifies the language of the document -->
 <head>
     <meta charset="UTF-8">
+    <!-- Character encoding to support various languages -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ensures the page is responsive to different device sizes -->
     <link rel="stylesheet" href="./Assets/css/style.css">
+    <!-- Links an external CSS stylesheet to style the page -->
     <title>Annie's Portfolio</title>
+    <!-- Title of the webpage, displayed in the browser tab -->
 </head>
 <body>
+    <!-- Main body of the webpage -->
     <header>
+        <!-- Header section containing navigation -->
         <nav>
+            <!-- Navigation element -->
             <ul>
+                <!-- Unordered list for navigation items -->
                 <li><a href="#about">About</a></li>
+                <!-- Links to different sections using anchor tags -->
                 <li><a href="#projects">Works</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -18,71 +29,97 @@
     </header>
 
     <section class="heroSection">
+        <!-- Hero section for introduction or main message -->
         <div class="container">
+            <!-- Container for styling and layout -->
             <h1>Digital Designer</h1>
+            <!-- Main heading in the hero section -->
             <h3>UX/UI design, full stack development, brand design</h3>
+            <!-- Subheading in the hero section -->
         </div>
     </section>
 
     <section id="about" class="aboutMe">
+        <!-- About section with a unique ID for navigation -->
         <div class="textContent">
+            <!-- Div for organizing text content -->
             <h2>Hi, I'm Annie</h2>
+            <!-- Heading for the about section -->
             <p>I am a dedicated full-stack developer with a foundation in UX/UI design, recently completing the UX/UI bootcamp from the University of Utah. Currently enrolled in their coding bootcamp, I aim to bridge the gap between design and development, creating seamless user experiences backed by robust, scalable code.</p>
+            <!-- Paragraph describing the developer's background -->
         </div>
         <img src="./Assets/img-me.jpg" alt="image of annie">
+        <!-- Image with alt text for accessibility -->
     </section>
 
     <section id="projects" class="worksSection">
+        <!-- Projects section with a unique ID for navigation -->
         <h2>Works</h2>
+        <!-- Heading for the projects section -->
         <div class="workContainer">
-        <a href="acrd.html">
-            <div class="card work1">
-                <h4>Empowering Disability Advocacy</h4>
-                <p>This unique hub gathers all essential knowledge in one easy-to-access space.</p>
-                <button>See More</button>
-                <img src="./Assets/ACRD.jpg" alt="Mockup image of ACRDs homepage on IMAC">
-            </div>
-        </a>
+            <!-- Container for multiple project cards -->
+            <a href="acrd.html">
+                <!-- Anchor tag linking to a project -->
+                <div class="card work1">
+                    <!-- Div representing a project card -->
+                    <h4>Empowering Disability Advocacy</h4>
+                    <!-- Project title -->
+                    <p>This unique hub gathers all essential knowledge in one easy-to-access space.</p>
+                    <!-- Project description -->
+                    <button>See More</button>
+                    <!-- Button to learn more about the project -->
+                    <img src="./Assets/ACRD.jpg" alt="Mockup image of ACRDs homepage on IMAC">
+                    <!-- Image representing the project -->
+                </div>
+            </a>
 
-        <a href="allAboard.html">
-            <div class="card work2">
-                <h4>Embark on a Journey of Knowledge</h4>
-                <p>A dynamic learning hub designed to streamline HR processes.</p>
-                <button>See More</button>
-                <img src="./Assets/allAboard.jpg" alt="Mockup image of All Aboards homepage on laptop">
-            </div>
-        </a>
+            <a href="allAboard.html">
+                <div class="card work2">
+                    <h4>Embark on a Journey of Knowledge</h4>
+                    <p>A dynamic learning hub designed to streamline HR processes.</p>
+                    <button>See More</button>
+                    <img src="./Assets/allAboard.jpg" alt="Mockup image of All Aboards homepage on laptop">
+                </div>
+            </a>
 
-        <a href="gardenPark.html">
-            <div class="card work3">
-                <h4>Blossoming Change</h4>
-                <p>Leveraged diverse skills in product design to enhance digital experience.</p>
-                <button>See More</button>
-                <img src="./Assets/GardenPark.jpg" alt="Mockup image of Conservation Garden Parks homepage on IMAC">
-            </div>
-        </a>
-    </div>
+            <a href="gardenPark.html">
+                <div class="card work3">
+                    <h4>Blossoming Change</h4>
+                    <p>Leveraged diverse skills in product design to enhance digital experience.</p>
+                    <button>See More</button>
+                    <img src="./Assets/GardenPark.jpg" alt="Mockup image of Conservation Garden Park's homepage on IMAC">
+                </div>
+            </a>
+        </div>
     </section>
 
     <section id="contact" class="contactMe">
+        <!-- Contact section for user interactions -->
         <h2>Get in touch</h2>
+        <!-- Heading for the contact section -->
         <form action="#" method="POST">
+            <!-- Form for contact submission -->
             <label for="name">Full Name:</label>
+            <!-- Label for the input field -->
             <input type="text" id="name" name="name" placeholder="Your name" required>
-
+            <!-- Input field for user name with validation -->
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" placeholder="Your email" required>
-
+            <!-- Input field for email with validation -->
             <label for="message">Message:</label>
             <textarea id="message" name="message" placeholder="Your message" required></textarea>
-
+            <!-- Text area for user message with validation -->
             <button type="submit">Submit</button>
+            <!-- Button to submit the form -->
         </form>
     </section>
     
     <footer>
+        <!-- Footer section -->
         <h4>Annie Dudley</h4>
+        <!-- Footer heading -->
         <header>
+            <!-- Navigation in the footer -->
             <nav>
                 <ul>
                     <li><a href="#about">About</a></li>
