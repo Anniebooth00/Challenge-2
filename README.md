@@ -1,5 +1,4 @@
 # Advanced CSS Challenge: Professional Portfolio
-Weekly challenge, on-the-job ticket.
 
 ## Description
 This week's challenge focuses on creating a professional portfolio using advanced CSS techniques. An effective portfolio is a crucial tool for showcasing your skills and talents to potential employers. It highlights your strongest work and the thought processes behind it. Having a portfolio with deployed web applications greatly increases your chances of getting an interview for a part-time or full-time position.
