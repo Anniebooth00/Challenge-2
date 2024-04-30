@@ -333,40 +333,40 @@ footer {
 }
 
 @media (max-width: 600px) {
-    /* Adjust the header padding */
+    
     header {
-        padding: 10px; /* Reduce padding */
+        padding: 10px; 
     }
 
-    /* Adjust the navigation for mobile */
+   
     nav {
-        text-align: center; /* Align text to the left */
+        text-align: center; 
     }
 
     ul {
-        display: inline; /* Display list vertically */
+        display: inline; 
         padding-left: 0;
     }
 
     li {
-        display: inline; /* Display each list item as a block */
+        display: inline;
         margin: 20px, 0;
     }
 
-    /* Adjust the hero section for mobile */
+   
     .heroSection {
         padding: 10px;
-        height: 60vh; /* Smaller height */
-        text-align: left; /* Align text to the left */
+        height: 60vh;
+        text-align: left; 
     }
 
     .heroSection .container {
-        padding-left: 20px; /* Reduce padding */
-        gap: 20px; /* Smaller gap */
+        padding-left: 20px; 
+        gap: 20px; 
     }
 
     h1 {
-        font-size: 60px; /* Smaller font size */
+        font-size: 60px; 
     }
 
     h2 {
@@ -375,69 +375,65 @@ footer {
 
     h3 {
         font-size: 18px;
-        width: auto; /* Adjust width to fit smaller screen */
+        width: auto; 
     }
 
     p {
         font-size: 16px;
     }
 
-    /* Adjust about section for mobile */
     .aboutMe {
-        flex-direction: column; /* Stack vertically */
-        align-items: flex-start; /* Align to the left */
+        flex-direction: column; 
+        align-items: flex-start; 
         padding-top: 260px;
-        padding-left: 40px; /* Smaller padding */
+        padding-left: 40px; 
     }
 
     .aboutMe img {
-        max-width: 400px; /* Smaller image size */
-        margin-left: 0; /* No margin */
+        max-width: 400px; 
+        margin-left: 0; 
     }
 
     .aboutMe p{
         width: 400px;
     }
 
-    /* Adjust work section for mobile */
     .worksSection {
         padding-left: 40px;
         padding-bottom: 160px;
     }
 
     .workContainer {
-        flex-direction: column; /* Stack vertically */
-        align-items: center; /* Center content */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .card {
-        width: 100%; /* Full width */
-        height: auto; /* Flexible height */
-        padding: 20px; /* Smaller padding */
+        width: 100%; 
+        height: auto; 
+        padding: 20px; 
+        margin: 20px 0;
     }
 
     .card p {
-        width: auto; /* Adjust text width */
+        width: auto; 
     }
 
-    /* Adjust contact section for mobile */
     .contactMe {
-        padding: 20px; /* Smaller padding */
+        padding: 20px; 
     }
 
     .contactMe form {
-        align-items: center; /* Center align form */
+        align-items: center; 
     }
 
-    /* Adjust form elements for mobile */
     .contactMe input,
     .contactMe textarea {
-        padding: 5px; /* Smaller padding */
-        width: 100%; /* Full width */
+        padding: 5px;
+        width: 100%; 
     }
 
-    /* Adjust footer for mobile */
     footer {
-        padding: 10px; /* Smaller padding */
+        padding: 10px;
     }
 }
