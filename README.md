@@ -3,7 +3,7 @@
 ## Description
 This week's challenge focuses on creating a professional portfolio using advanced CSS techniques. An effective portfolio is a crucial tool for showcasing your skills and talents to potential employers. It highlights your strongest work and the thought processes behind it. Having a portfolio with deployed web applications greatly increases your chances of getting an interview for a part-time or full-time position.
 
-In this challenge, you will apply core skills such as flexbox, media queries, and CSS variables to create a responsive and visually appealing portfolio. Even if you don't have many deployed projects yet, you can use placeholders and update them as you build more applications throughout the course.
+In this challenge, I had to apply core skills such as flexbox, media queries, and CSS variables to create a responsive and visually appealing portfolio.
 
 ## Challenge
 ### User Story
