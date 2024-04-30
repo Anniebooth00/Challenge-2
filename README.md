@@ -20,11 +20,11 @@ SO THAT I can assess whether they're a good fit for an open position.
 - WHEN I resize the page or view the site on various screens and devices, THEN I am presented with a responsive layout that adapts to my viewport.
 
 ## Screenshots
-[Home Section](./Assets/imgs/home.png)
-[About Section](./Assets/imgs/about.png)
-[Works Section](./Assets/imgs/works.png)
-[Contact Section](./Assets/imgs/contact.png)
-[Work Details Page](./Assets/imgs/worksDetail.png)
+![Home Section](./Assets/imgs/home.png)
+![About Section](./Assets/imgs/about.png)
+![Works Section](./Assets/imgs/works.png)
+![Contact Section](./Assets/imgs/contact.png)
+![Work Details Page](./Assets/imgs/worksDetail.png)
 
 ## Deployed Application
 [Link to Site](https://anniebooth00.github.io/Challenge-2/index.html)
