@@ -27,7 +27,7 @@ SO THAT I can assess whether they're a good fit for an open position.
 [Work Details Page](./Assets/imgs/worksDetail.png)
 
 ## Deployed Application
-[Link to Site](#)
+[Link to Site](https://anniebooth00.github.io/Challenge-2/index.html)
 
 ## Usage
 This portfolio is intended for hiring managers to assess the quality of the developer's work and their suitability for a role.
